@@ -11,7 +11,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=os.getenv('SPOTIPY_CLIENT_ID'),
     client_secret=os.getenv('SPOTIPY_CLIENT_SECRET'),
     redirect_uri=os.getenv('SPOTIPY_REDIRECT_URI'),
-    scope='playlist-modify-private playlist-read-private'
+    scope='playlist-modify-private playlist-read-private user-library-read user-read-playback-state'
 ))
 
 # Kullanıcı bilgilerini alalım
