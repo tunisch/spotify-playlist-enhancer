@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'utils')))
 
-from spotidy_client import sp
+from utils.spotidy_client import sp
 
 def get_playlist_tracks(sp, playlist_id):
     results = sp.playlist_tracks(playlist_id)
