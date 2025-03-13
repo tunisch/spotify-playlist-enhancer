@@ -16,5 +16,5 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 
 # Kullanıcı bilgilerini alalım
 user = sp.current_user()
-print(f"Spotify'a bağlandın: {user['display_name']}")
+print(f"Spotify'a bağlandin: {user['display_name']}")
 

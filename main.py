@@ -1,4 +1,4 @@
-from utils.spotify_client import sp
+from utils.spotidy_client import sp
 
 def get_playlist_tracks(sp, playlist_id):
     results = sp.playlist_tracks(playlist_id)
@@ -19,7 +19,7 @@ def find_similar_tracks(sp, track_id):
     return similar_tracks
 
 # Çalma listesi ID'sini buraya ekle
-playlist_id = 'ÇALMA_LISTESI_ID'
+playlist_id = 'https://open.spotify.com/playlist/0SYZIeRqDQGsbCvWkdoFLD?si=d44ba36b1f124176'
 
 # Çalma listesindeki parçaları al
 tracks = get_playlist_tracks(sp, playlist_id)
