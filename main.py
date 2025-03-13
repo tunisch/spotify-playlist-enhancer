@@ -22,7 +22,7 @@ def find_similar_tracks(sp, track_id):
         similar_tracks.append(item)
     return similar_tracks
 
-playlist_id = 'ÇALMA_LISTESI_ID'
+playlist_id = 'https://open.spotify.com/playlist/0SYZIeRqDQGsbCvWkdoFLD?si=7fefca0781dc407f'
 
 tracks = get_playlist_tracks(sp, playlist_id)
 for idx, track in enumerate(tracks):
