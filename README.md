@@ -1,4 +1,4 @@
-Spotify Playlist Enhancer
+# Spotify Playlist Enhancer
 
 Spotify Playlist Enhancer is a Python project designed to automatically suggest and add songs with a similar vibe, rhythm, and feel to your existing Spotify playlist. Using the Spotify API, it analyzes your playlist’s tracks and queues similar songs for your approval before adding them.
 
