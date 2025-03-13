@@ -13,7 +13,7 @@ Spotify Playlist Enhancer is a Python project designed to automatically suggest 
 ➕ Automatically add approved songs to your playlist.
 
 ## Project Structure
-
+```
 spotify-playlist-enhancer/
 |-- .env                   # Environment variables (Spotify API credentials)
 |-- config.py              # Configuration settings
@@ -23,6 +23,8 @@ spotify-playlist-enhancer/
 |   |-- spotify_client.py  # Spotify API interaction functions
 |   |-- song_analyzer.py   # Functions for song analysis and comparison
 |-- README.md              # Project documentation
+```
+
 
 ## Setup
 
